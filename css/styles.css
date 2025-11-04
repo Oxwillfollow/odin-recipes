@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+body {
+    margin: 0;
+}
+
+.recipes-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipes-list li {
+    padding: 2rem;
+    background-color: rgb(231, 231, 231);
+    margin: 1rem 0;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ul, ol {
+    text-align: left;
+}
+
+.container {
+    min-height: 100vh;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    background-color: rgb(73, 73, 73);
+}
+
+h1 {
+    color: white;
+    font-size: 48px;
+}
+
+.recipes-list a {
+    color: rgb(6, 0, 85);
+    text-decoration: none;
+}
